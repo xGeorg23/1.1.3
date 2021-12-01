@@ -22,7 +22,7 @@ public class User {
 
     }
 
-    public User(String name, String lastName, Byte age) {
+    public User(String name, String lastName, Byte age)  {
         this.name = name;
         this.lastName = lastName;
         this.age = age;
@@ -61,6 +61,11 @@ public class User {
     }
 
     public String toString () {
-        return id + " " + name + " " + lastName + " " + age;
+        "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
