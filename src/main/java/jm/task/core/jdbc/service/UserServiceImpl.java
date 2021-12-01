@@ -29,7 +29,7 @@ public class UserServiceImpl implements UserService {
         return userDao.getAllUsers();
     }
 
-    public void cleanUsersTable() {
+    public void cleanUsersTable()  {
         userDao.cleanUsersTable();
     }
 }
