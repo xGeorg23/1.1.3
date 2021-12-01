@@ -14,7 +14,7 @@ public class Main {
         userService.saveUser("Леша","Мудаликус",(byte) 22);
         userService.saveUser("Гоша","Кидаликус",(byte) 23);
         System.out.println(userService.getAllUsers());
-        userService.cleanUsersTable();
-        userService.dropUsersTable();
+        userService.cleanUsersTable(); // очищаем таблицу
+        userService.dropUsersTable(); // удаление таблицы
     }
 }
